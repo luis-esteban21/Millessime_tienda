@@ -18,6 +18,14 @@ footer {
 
 }
 
+.ima {
+    width: 36px;
+    height: 36px;
+    position: relative;
+    margin: 20px;
+
+}
+
 .main1 {
     display: flex;
     margin: 0 auto;
