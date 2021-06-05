@@ -7,12 +7,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="./css/estilos.css" />
+    <link rel="stylesheet" href="./css/carousel.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
 </head>
 
-<body>
+<body background="./img/4853433.jpg">
     <header>
         <nav class="navbar navbar-expand-md navbar-light bg-light">
             <a class="navbar-brand" href="index.html">Tienda Millesime </a>
@@ -51,26 +53,24 @@
         </nav>
     </header>
     <main>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3"><img src="abrigo (5).jpg"
-                        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
-                        alt=""></div>
-                <div class="col-md-3"><img src="abrigo (2).jpg"
-                        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
-                        alt=""></div>
-                <div class="col-md-3"><img src="abrigo (3).jpg"
-                        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
-                        alt=""></div>
-                <div class="col-md-3"><img src="abrigo (4).jpg"
-                        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
-                        alt=""></div>
+        <div class="gallery">
+            <div class="gallery-container">
+              <img class="gallery-item gallery-item-1" src="./img/imagen1.jpg" data-index="1">
+              <img class="gallery-item gallery-item-2" src="./img/imagen2.jpg" data-index="2">
+              <img class="gallery-item gallery-item-3" src="./img/imagen3.jpg" data-index="3">
+              <img class="gallery-item gallery-item-4" src="./img/imagen4.jpg" data-index="4">
+              <img class="gallery-item gallery-item-5" src="./img/imagen5.jpg" data-index="5">
+              <img class="gallery-item gallery-item-5" src="./img/imagen5.jpg" data-index="6">
+              <img class="gallery-item gallery-item-5" src="./img/imagen5.jpg" data-index="7">
             </div>
-
-            <div class="jumbotron">
+            <div class="gallery-controls"></div>
+          </div>
+        
+          <script src="./js/carousel.js"></script>
+                <div>
+            <div>
                 <h1 class="display-3">Contactanos</h1>
                 <p class="lead">Grandes ofertas</p>
-                <hr class="my-2">
                 <p>Proximamnete nueva colección</p>
                 <p class="lead">
                     <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Apretar</a>
