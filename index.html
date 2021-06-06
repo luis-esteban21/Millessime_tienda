@@ -7,16 +7,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="./css/estilos.css" />
-    <link rel="stylesheet" href="./css/carousel.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="./css/carousel.css">
+
 </head>
 
 <body background="./img/4853433.jpg">
     <header>
-        <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary">
             <a class="navbar-brand" href="index.html">Tienda Millesime </a>
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
                 data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
@@ -52,42 +52,72 @@
             </div>
         </nav>
     </header>
+
     <main>
         <div class="gallery">
             <div class="gallery-container">
-              <img class="gallery-item gallery-item-1" src="./img/imagen1.jpg" data-index="1">
-              <img class="gallery-item gallery-item-2" src="./img/imagen2.jpg" data-index="2">
-              <img class="gallery-item gallery-item-3" src="./img/imagen3.jpg" data-index="3">
-              <img class="gallery-item gallery-item-4" src="./img/imagen4.jpg" data-index="4">
-              <img class="gallery-item gallery-item-5" src="./img/imagen5.jpg" data-index="5">
-              <img class="gallery-item gallery-item-5" src="./img/imagen5.jpg" data-index="6">
-              <img class="gallery-item gallery-item-5" src="./img/imagen5.jpg" data-index="7">
+                <img class="gallery-item gallery-item-1" src="./img/imagen1.jpg" data-index="1">
+                <img class="gallery-item gallery-item-2" src="./img/imagen2.jpg" data-index="2">
+                <img class="gallery-item gallery-item-3" src="./img/imagen3.jpg" data-index="3">
+                <img class="gallery-item gallery-item-4" src="./img/imagen4.jpg" data-index="4">
+                <img class="gallery-item gallery-item-5" src="./img/imagen5.jpg" data-index="5">
+                <img class="gallery-item gallery-item-5" src="./img/imagen5.jpg" data-index="6">
+                <img class="gallery-item gallery-item-5" src="./img/imagen5.jpg" data-index="7">
             </div>
             <div class="gallery-controls"></div>
-          </div>
-        
-          <script src="./js/carousel.js"></script>
-                <div>
-            <div>
-                <h1 class="display-3">Contactanos</h1>
-                <p class="lead">Grandes ofertas</p>
-                <p>Proximamnete nueva colección</p>
-                <p class="lead">
-                    <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Apretar</a>
-                </p>
-            </div>
         </div>
 
+        <script src="carousel.js"></script>
     </main>
+    <section class="container-fluid">
+        <div class="row w-75 mx-auto  informa-fila">
+            <div class="col-lg-3 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+                <a href="Formulario.html">
+                <img src="./img/contactanos.png" alt="contactanos" width="90" height="80" href="Formulario.html">
+            </a>
+                <div>
+                
+                    <h5 class="fs-5 mt-4 px-4 pb-1">CONTACTANOS</h5>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+                <img src="./img/ubicanos.png" alt="ubicanos" width="90" height="80">
+                <div>
+                    <h5 class="fs-5 mt-4 px-4 pb-1">NUESTRA UBICACION</h5>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+                <img src="./img/ofertas.png" alt="ofertas" width="90" height="80">
+                <div>
+                    <h5 class="fs-5 mt-4 px-4 pb-1">GRANDES OFERTAS</h5>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+                <img src="./img/tienda.png" alt="tienda" width="90" height="80">
+                <div>
+                    <h5 class="fs-5 mt-4 px-4 pb-1">INGRESO A TIENDA</h5>
+
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-md-6 text-left">
                     <h6 class="text-muted.text-white">CONTACTO:</h6>
                     <h6 class="text-muted.text-white">
-                        San Hermogenes<br>
-                        Puerto Varas.<br>
-                        Teléfonos: 2-29857415 – 9-44875206.<br>
+                        San Hermogenes 3295, Las Condes<br>
+                        Santiago.<br>
+                        Teléfonos: 2-26453415 – 9-64534994.<br>
                         <a href="Formulario.html">CONTACTANOS</a>
                     </h6>
                 </div>
@@ -112,13 +142,14 @@
 
         </div>
 
+
     </footer>
 
     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
+    </script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
